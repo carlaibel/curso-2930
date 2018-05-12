@@ -1,0 +1,45 @@
+/*  
+
+EJERCICIO N°3
+
+- Crear una pagina web en la cual el usuario aprete cualquier letra del teclado y esta aparesca en el centro de la pantalla.
+- Si la letra es z. abajo a la izquierda tiene que aparecer el zorro (Revisar las imagenes y onkeyup).
+- Una vez que aparesca la letra Z, arrojar un alert sacar el funcionamiento de la keys. (utilizar eventListeners)
+
+*/
+
+/*
+function mostrarLetra (event) {
+
+    if (event.keyCode <= 90 && event.keyCode >= 48 || event.keyCode >= 96 && event.keyCode <= 105) {
+        document.getElementById('letter').innerHTML = event.key;
+    }
+
+    if (event.keyCode === 90) {
+        console.log('encontré la letra!')
+        document.body.removeEventListener('keyup')
+    }
+}
+
+*/
+
+
+document.body.onkeyup = function (event) {
+
+	console.log(event.key);
+
+	
+    if ( event.keyCode <= 90 && event.keyCode >= 48 || event.keyCode >= 96 && event.keyCode <= 105) {
+        
+		console.log(event.key);
+
+        //document.getElementById('letter').innerHTML = event.key;
+    }
+	
+
+	/*
+    if (event.keyCode === 90) {
+        console.log('encontré la letra!')
+        document.body.removeEventListener('keyup')
+    }*/
+}

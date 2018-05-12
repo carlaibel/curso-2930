@@ -1,0 +1,22 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+img {
+    max-width: 200px;
+}
