@@ -1,0 +1,116 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-heigfht: 70px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p.description {
+    display: none;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.center-auto {
+	margin: 0 auto; /* tambien se puede hacer "margin-left: auto;margin-right:auto;" y lograr lo mismo */ 
+}
+
+.centered-block {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.block {
+	display: block;
+}
+
+.example {
+	background-color: #cccccc;
+	border: 1px solid #aaa;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+label {
+    font-family: arial;
+    font-weight: bold;
+    margin-right: 20px;
+}
+input {
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto
+}
+
+
+/* tooltip styles*/
+
+.tooltip {
+    display: inline-block;
+    padding-left: 9px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.tooltip-content {
+    position: absolute;
+    background-color: #404040;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    top: 36px;
+    width: 187px;
+    display: none;
+}
+
+.tooltip-content.toggle {
+    display: block;
+}
+
+.tooltip-icon {
+    border: 2px solid #2d2d2d;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tooltip-icon span {
+    position: relative;
+    top:4px;
+}
+
+.tooltip-content .arrow {
+    position: absolute;
+    top: -4px;
+    left: 11px;
+}
